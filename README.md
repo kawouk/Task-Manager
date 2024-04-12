@@ -2,6 +2,7 @@ Task Manager App
 The Task Manager app is a full-stack web application for managing tasks. It consists of a client-side React application for the frontend and a Node.js/Express server for the backend. The app allows users to perform CRUD (Create, Read, Update, Delete) operations on tasks, as well as search and filter tasks based on various criteria.
 
 NODE VERSION : 21.5.0 !!
+LAUNCH THE SERVER BEFORE THE CLIENT !!
 
 Features
 Create, read, update, and delete tasks
