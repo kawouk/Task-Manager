@@ -1,0 +1,19 @@
+// Bright mode colors
+$bright-background: #fff;
+$bright-text: #000;
+$bright-primary: #007bff;
+$bright-secondary: #7952b3;
+$bright-completed: rgb(54, 226, 54);
+$bright-warning: red;
+$bright-grey: rgb(228, 226, 226);
+
+// Dark mode colors
+$dark-background: #212529;
+$dark-text: #fff;
+$dark-primary: #3498db;
+$dark-secondary: #6c757d;
+
+// Global theme variable (initial set to bright)
+$theme: "bright";
+
+$transition: all 0.3s ease-in-out;

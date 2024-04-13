@@ -1,0 +1,37 @@
+@import "../../assets/index.scss";
+.tasks-controller {
+  @include flex-box-row(space-between, 1rem, wrap);
+  @include mobile {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .search-container {
+    min-width: 15rem;
+    @include mobile {
+      width: 100%;
+      min-width: unset;
+    }
+  }
+  .filter-container {
+    @include flex-box-row(unset, 1rem, nowrap);
+    @include mobile {
+      justify-content: space-between;
+      width: 100%;
+    }
+    button {
+      background-color: transparent;
+      color: $dark-secondary;
+      border: 1px solid $dark-secondary;
+      transition: $transition;
+      padding: 0.3rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 0.2rem;
+      &:hover {
+        color: $bright-primary;
+        border-color: $bright-primary;
+      }
+    }
+  }
+}
